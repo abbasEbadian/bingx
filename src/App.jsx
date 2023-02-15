@@ -10,7 +10,6 @@ const HomeWrapper = styled('div')`
 `
 function App() {
 
-  if (window.innerWidth < 768) {
 
     return (
       <HomeWrapper className="App">
@@ -22,18 +21,7 @@ function App() {
       </HomeWrapper>
 
     );
-  } else {
-    return (
-
-       <div className="alert alert-danger mt-5">
-          <p className="text-center ">
-               please enter with mobile or tablet device (maximum : 768px)
-          </p>
-       </div>
-    )
-
-
-  }
+  
 
 }
 
