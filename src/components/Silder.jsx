@@ -23,7 +23,7 @@ const SliderWrapper = styled.div`
         }
     }
     .slick-arrow{
-        display: none;
+        display: none !important;
     }
 
 `
